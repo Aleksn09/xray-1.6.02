@@ -1,6 +1,6 @@
 object fraSector: TfraSector
-  Left = 554
-  Top = 345
+  Left = 852
+  Top = 353
   Width = 226
   Height = 244
   VertScrollBar.ButtonSize = 11
@@ -10,9 +10,10 @@ object fraSector: TfraSector
   VertScrollBar.Visible = False
   Align = alClient
   BorderStyle = bsNone
-  Color = 10528425
+  Color = 4473924
+  TransparentColorValue = 15461355
   Font.Charset = DEFAULT_CHARSET
-  Font.Color = clBlack
+  Font.Color = 15461355
   Font.Height = -11
   Font.Name = 'MS Sans Serif'
   Font.Style = []
@@ -22,10 +23,10 @@ object fraSector: TfraSector
   object paSectorActions: TPanel
     Left = 0
     Top = 94
-    Width = 218
+    Width = 210
     Height = 88
     Align = alTop
-    Color = 10528425
+    Color = 4473924
     TabOrder = 1
     Visible = False
     object ebAddMesh: TExtBtn
@@ -38,10 +39,11 @@ object fraSector: TfraSector
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = clWhite
       GroupIndex = 2
       Caption = '+M'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = clWhite
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = [fsBold]
@@ -97,10 +99,11 @@ object fraSector: TfraSector
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = clWhite
       GroupIndex = 2
       Caption = '-M'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = clWhite
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = [fsBold]
@@ -156,10 +159,11 @@ object fraSector: TfraSector
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       GroupIndex = 1
       Caption = 'Box Pick'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -211,17 +215,29 @@ object fraSector: TfraSector
       Width = 40
       Height = 13
       Caption = 'Meshes:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
     end
     object APHeadLabel2: TLabel
       Left = 1
       Top = 1
-      Width = 216
+      Width = 208
       Height = 13
       Align = alTop
       Alignment = taCenter
       Caption = 'Edit'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
       OnClick = TopClick
     end
     object ExtBtn1: TExtBtn
@@ -257,10 +273,11 @@ object fraSector: TfraSector
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       GroupIndex = 1
       Caption = 'Create New Single (From Mesh)'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -321,10 +338,11 @@ object fraSector: TfraSector
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       GroupIndex = 1
       Caption = 'Create New Multiple (From Object)'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -373,10 +391,10 @@ object fraSector: TfraSector
   object paCommands: TPanel
     Left = 0
     Top = 0
-    Width = 218
+    Width = 210
     Height = 94
     Align = alTop
-    Color = 10528425
+    Color = 4473924
     TabOrder = 0
     object ebValidate: TExtBtn
       Left = 2
@@ -387,9 +405,12 @@ object fraSector: TfraSector
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
+      BtnColor = 15461355
+      DownColor = 15461355
       Caption = 'Validate Sectors'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -400,13 +421,19 @@ object fraSector: TfraSector
     object APHeadLabel1: TLabel
       Left = 1
       Top = 1
-      Width = 216
+      Width = 208
       Height = 13
       Align = alTop
       Alignment = taCenter
       Caption = 'Command'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
       OnClick = TopClick
     end
     object ExtBtn2: TExtBtn
@@ -441,9 +468,10 @@ object fraSector: TfraSector
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Capture Volume'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -460,9 +488,10 @@ object fraSector: TfraSector
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Create Default'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -479,9 +508,10 @@ object fraSector: TfraSector
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Remove Default'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -504,9 +534,10 @@ object fraSector: TfraSector
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Distribute Objects'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []

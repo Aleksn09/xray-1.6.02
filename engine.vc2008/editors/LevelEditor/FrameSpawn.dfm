@@ -25,8 +25,8 @@ object fraSpawn: TfraSpawn
     Width = 217
     Height = 175
     Align = alClient
+    Color = 4473924
     Constraints.MinHeight = 175
-    ParentColor = True
     TabOrder = 0
     object APHeadLabel1: TLabel
       Left = 1
@@ -36,8 +36,14 @@ object fraSpawn: TfraSpawn
       Align = alTop
       Alignment = taCenter
       Caption = 'Current Spawn'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
       OnClick = ExpandClick
     end
     object Bevel1: TBevel
@@ -55,7 +61,7 @@ object fraSpawn: TfraSpawn
       Height = 159
       Align = alClient
       BevelOuter = bvNone
-      ParentColor = True
+      Color = 4473924
       TabOrder = 0
     end
   end
@@ -65,7 +71,7 @@ object fraSpawn: TfraSpawn
     Width = 217
     Height = 51
     Align = alTop
-    ParentColor = True
+    Color = 4473924
     TabOrder = 1
     object Label1: TLabel
       Left = 1
@@ -75,8 +81,14 @@ object fraSpawn: TfraSpawn
       Align = alTop
       Alignment = taCenter
       Caption = 'Commands'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
       OnClick = ExpandClick
     end
     object ExtBtn1: TExtBtn
@@ -112,10 +124,11 @@ object fraSpawn: TfraSpawn
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       GroupIndex = 1
       Caption = 'Attach Object...'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -131,9 +144,10 @@ object fraSpawn: TfraSpawn
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Detach Object'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -147,7 +161,7 @@ object fraSpawn: TfraSpawn
     Width = 217
     Height = 47
     Align = alTop
-    Color = 10528425
+    Color = 4473924
     TabOrder = 2
     object Label5: TLabel
       Left = 5
@@ -155,6 +169,12 @@ object fraSpawn: TfraSpawn
       Width = 47
       Height = 26
       Caption = 'Select by Current:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
       WordWrap = True
     end
     object ebSelectByRefs: TExtBtn
@@ -165,9 +185,10 @@ object fraSpawn: TfraSpawn
       Align = alNone
       BevelShow = False
       HotTrack = True
+      NormalColor = 15461355
       Caption = '+'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -182,9 +203,10 @@ object fraSpawn: TfraSpawn
       Align = alNone
       BevelShow = False
       HotTrack = True
+      NormalColor = 15461355
       Caption = '-'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -199,8 +221,14 @@ object fraSpawn: TfraSpawn
       Align = alTop
       Alignment = taCenter
       Caption = 'Reference Select'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
       OnClick = ExpandClick
     end
     object ExtBtn3: TExtBtn
@@ -234,9 +262,10 @@ object fraSpawn: TfraSpawn
       Align = alNone
       BevelShow = False
       HotTrack = True
+      NormalColor = 15461355
       Caption = '=%'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -256,7 +285,7 @@ object fraSpawn: TfraSpawn
       Height = 13
       Caption = '%'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -270,9 +299,10 @@ object fraSpawn: TfraSpawn
       Align = alNone
       BevelShow = False
       HotTrack = True
+      NormalColor = 15461355
       Caption = '+%'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -285,6 +315,12 @@ object fraSpawn: TfraSpawn
       Width = 47
       Height = 26
       Caption = 'Select by Selected:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
       WordWrap = True
     end
     object seSelPercent: TMultiObjSpinEdit
@@ -299,7 +335,7 @@ object fraSpawn: TfraSpawn
       Value = 100
       AutoSize = False
       BorderStyle = bsNone
-      Color = 12698049
+      Color = 5658198
       TabOrder = 0
       OnKeyPress = seSelPercentKeyPress
     end

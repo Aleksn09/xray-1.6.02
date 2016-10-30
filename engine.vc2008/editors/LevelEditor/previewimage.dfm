@@ -35,7 +35,7 @@ object frmPreviewImage: TfrmPreviewImage
       Height = 256
       Cursor = crSizeAll
       Align = alClient
-      Color = clGray
+      Color = 5658198
       ParentColor = False
       OnMouseDown = pbImageMouseDown
       OnPaint = pbImagePaint

@@ -36,7 +36,7 @@
 #	endif // VERIFY
 
 #	ifdef _DEBUG
-#		define NODEFAULT				FATAL("nodefault reached")
+#		define NODEFAULT
 #		define VERIFY(expr)				do {static bool ignore_always = false; if (!ignore_always && !(expr)) ::Debug.fail(#expr,DEBUG_INFO,ignore_always);} while(0)
 #		define VERIFY2(expr,e2)		do {static bool ignore_always = false; if (!ignore_always && !(expr)) ::Debug.fail(#expr,e2,DEBUG_INFO,ignore_always);} while(0)
 #		define VERIFY3(expr,e2,e3)	do {static bool ignore_always = false; if (!ignore_always && !(expr)) ::Debug.fail(#expr,e2,e3,DEBUG_INFO,ignore_always);} while(0)

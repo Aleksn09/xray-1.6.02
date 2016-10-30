@@ -1,6 +1,6 @@
 object frmObjectList: TfrmObjectList
-  Left = 348
-  Top = 415
+  Left = 562
+  Top = 210
   Width = 411
   Height = 504
   Caption = 'Object List'
@@ -22,14 +22,14 @@ object frmObjectList: TfrmObjectList
   PixelsPerInch = 96
   TextHeight = 13
   object Panel1: TPanel
-    Left = 306
+    Left = 298
     Top = 0
     Width = 97
-    Height = 470
+    Height = 465
     Align = alRight
     BevelInner = bvRaised
     BevelOuter = bvNone
-    Color = 10528425
+    Color = 4473924
     TabOrder = 0
     object ebShowSel: TExtBtn
       Left = 1
@@ -37,10 +37,11 @@ object frmObjectList: TfrmObjectList
       Width = 95
       Height = 19
       Align = alNone
-      BtnColor = 10528425
+      NormalColor = 15461355
+      BtnColor = 4473924
       Caption = 'Show Selected'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -55,10 +56,11 @@ object frmObjectList: TfrmObjectList
       Width = 95
       Height = 19
       Align = alNone
-      BtnColor = 10528425
+      NormalColor = 15461355
+      BtnColor = 4473924
       Caption = 'Hide Selected'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -73,10 +75,11 @@ object frmObjectList: TfrmObjectList
       Width = 95
       Height = 19
       Align = alNone
-      BtnColor = 10528425
+      NormalColor = 15461355
+      BtnColor = 4473924
       Caption = 'Show Properties'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -92,17 +95,23 @@ object frmObjectList: TfrmObjectList
       Height = 81
       Align = alTop
       Caption = ' Show options '
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ItemIndex = 1
       Items.Strings = (
         'All'
         'Visible Only'
         'Invisible Only')
+      ParentFont = False
       TabOrder = 0
       OnClick = rgSOClick
     end
     object Panel2: TPanel
       Left = 1
-      Top = 429
+      Top = 424
       Width = 95
       Height = 40
       Align = alBottom
@@ -115,10 +124,11 @@ object frmObjectList: TfrmObjectList
         Width = 95
         Height = 19
         Align = alNone
-        BtnColor = 10528425
+        NormalColor = 15461355
+        BtnColor = 4473924
         Caption = 'Refresh List'
         Font.Charset = DEFAULT_CHARSET
-        Font.Color = clBlack
+        Font.Color = 15461355
         Font.Height = -11
         Font.Name = 'MS Sans Serif'
         Font.Style = []
@@ -133,10 +143,11 @@ object frmObjectList: TfrmObjectList
         Width = 95
         Height = 19
         Align = alNone
-        BtnColor = 10528425
+        NormalColor = 15461355
+        BtnColor = 4473924
         Caption = 'Close'
         Font.Charset = DEFAULT_CHARSET
-        Font.Color = clBlack
+        Font.Color = 15461355
         Font.Height = -11
         Font.Name = 'MS Sans Serif'
         Font.Style = []
@@ -150,16 +161,16 @@ object frmObjectList: TfrmObjectList
   object Panel3: TPanel
     Left = 0
     Top = 0
-    Width = 306
-    Height = 470
+    Width = 298
+    Height = 465
     Align = alClient
     Color = clGray
     TabOrder = 1
     object tvItems: TElTree
       Left = 1
       Top = 1
-      Width = 304
-      Height = 444
+      Width = 296
+      Height = 439
       Cursor = crDefault
       LeftPosition = 0
       DragCursor = crDrag
@@ -310,7 +321,7 @@ object frmObjectList: TfrmObjectList
       VirtualityLevel = vlNone
       UseXPThemes = False
       TextColor = clBtnText
-      BkColor = clGray
+      BkColor = 5658198
       OnAfterSelectionChange = tvItemsAfterSelectionChange
       OnItemFocused = tvItemsItemFocused
       OnMouseDown = tvItemsMouseDown
@@ -319,8 +330,8 @@ object frmObjectList: TfrmObjectList
     end
     object Panel4: TPanel
       Left = 1
-      Top = 445
-      Width = 304
+      Top = 440
+      Width = 296
       Height = 24
       Align = alBottom
       Color = clGray
@@ -328,7 +339,7 @@ object frmObjectList: TfrmObjectList
       object ElEdit1: TElEdit
         Left = 1
         Top = 1
-        Width = 302
+        Width = 294
         Height = 21
         Cursor = crIBeam
         VertScrollBarStyles.ShowTrackHint = False

@@ -134,7 +134,7 @@
       Edit\AppendObjectInfoForm.dfm LEClipEditor.dfm"/>
     <LIBFILES value=""/>
     <LIBRARIES value="editor.lib"/>
-    <SPARELIBS value="rtl.lib vcl.lib bcbsmp.lib vclx.lib editor.lib elpackB6.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib bcbsmp.lib vclx.lib editor.lib elpackB6.lib elpproB6.lib"/>
     <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi bcbsmp.bpi elpackB6.bpi elpproB6.bpi"/>
     <PATHCPP value=".;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;..\..\xrEngine;Edit;Edit;Edit;..\..\xrServerEntities;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;Edit;..\..\Layers\xrRender;..\..\Layers\xrRender;..\..\Layers\xrRender;..\..\Layers\xrRender;..\..\Layers\xrRender;Edit;..\..\xrServerEntities;Edit;Edit;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;..\..\Layers\xrRender"/>
     <PATHPAS value=".;"/>
@@ -173,8 +173,8 @@
       -$A8 -v -JPHNE -M"/>
     <RFLAGS value=""/>
     <AFLAGS value="/mx /w2 /zi"/>
-    <LFLAGS value="-lD:\stalker_addon\libraries -ID:\intermediate_ed\le -D&quot;&quot; -aa -Tpe -GD -x 
-      -Gn -v"/>
+    <LFLAGS value="-lD:\stalker_addon\libraries -ID:\intermediate_ed\le -D&quot;&quot; 
+      -GC/GF:LARGEADDRESSAWARE -aa -Tpe -GD -x -Gn -v"/>
     <OTHERFILES value=""/>
   </OPTIONS>
   <LINKER>
@@ -352,7 +352,7 @@ AutoIncBuild=1
 MajorVer=1
 MinorVer=0
 Release=2
-Build=161
+Build=162
 Debug=1
 PreRelease=0
 Special=0
@@ -364,7 +364,7 @@ CodePage=1252
 [Version Info Keys]
 CompanyName=
 FileDescription=
-FileVersion=1.0.2.161
+FileVersion=1.0.2.162
 InternalName=
 LegalCopyright=
 LegalTrademarks=

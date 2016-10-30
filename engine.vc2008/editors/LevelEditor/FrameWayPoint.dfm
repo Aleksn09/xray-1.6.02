@@ -21,7 +21,7 @@ object fraWayPoint: TfraWayPoint
     Width = 217
     Height = 49
     Align = alTop
-    ParentColor = True
+    Color = 4473924
     TabOrder = 0
     object APHeadLabel1: TLabel
       Left = 1
@@ -31,8 +31,14 @@ object fraWayPoint: TfraWayPoint
       Align = alTop
       Alignment = taCenter
       Caption = 'Way Mode'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
       OnClick = ExpandClick
     end
     object ExtBtn2: TExtBtn
@@ -67,11 +73,12 @@ object fraWayPoint: TfraWayPoint
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       GroupIndex = 2
       Down = True
       Caption = 'Way Mode'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -128,10 +135,11 @@ object fraWayPoint: TfraWayPoint
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       GroupIndex = 2
       Caption = 'Point Mode'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -185,7 +193,7 @@ object fraWayPoint: TfraWayPoint
     Width = 217
     Height = 84
     Align = alTop
-    ParentColor = True
+    Color = 4473924
     TabOrder = 1
     object Label1: TLabel
       Left = 1
@@ -195,8 +203,14 @@ object fraWayPoint: TfraWayPoint
       Align = alTop
       Alignment = taCenter
       Caption = 'Link Command'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
       OnClick = ExpandClick
     end
     object ExtBtn3: TExtBtn
@@ -231,9 +245,10 @@ object fraWayPoint: TfraWayPoint
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Invert Link'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -250,9 +265,10 @@ object fraWayPoint: TfraWayPoint
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Create 1-Link'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -269,9 +285,10 @@ object fraWayPoint: TfraWayPoint
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Remove Link'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -288,9 +305,10 @@ object fraWayPoint: TfraWayPoint
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Create 2-Link'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -308,11 +326,12 @@ object fraWayPoint: TfraWayPoint
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       GroupIndex = 1
       Down = True
       Caption = 'Auto Link'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -373,9 +392,10 @@ object fraWayPoint: TfraWayPoint
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Convert to 1-Link'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -392,9 +412,10 @@ object fraWayPoint: TfraWayPoint
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Convert to 2-Link'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []

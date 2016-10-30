@@ -72,7 +72,7 @@
 #  define SWD_HSIZE         16384
 #endif
 #ifndef SWD_MAX_CHAIN
-#  define SWD_MAX_CHAIN     2048
+#  define SWD_MAX_CHAIN     32758
 #endif
 
 #if !defined(HEAD3)

@@ -29,7 +29,7 @@ mem_init(unsigned char *ptr, unsigned long size)
 	unsigned long i, j;
 
 	if(size == 0) return;
-	for(i=0; i<size; i+=2047) {
+	for(i=0; i<size; i+=32757) {
 		j = (unsigned long)ptr ^ i;
 		ptr[i] = ((j ^ (j>>8)) & 0xFF);
 	}
@@ -43,7 +43,7 @@ mem_check(unsigned char *ptr, unsigned long size)
 	unsigned long i, j;
 
 	if(size == 0) return 0;
-	for(i=0; i<size; i+=2047) {
+	for(i=0; i<size; i+=32757) {
 		j = (unsigned long)ptr ^ i;
 		if(ptr[i] != ((j ^ (j>>8)) & 0xFF)) return 1;
 	}

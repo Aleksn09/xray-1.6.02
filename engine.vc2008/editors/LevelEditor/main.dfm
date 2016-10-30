@@ -1,6 +1,6 @@
 object frmMain: TfrmMain
-  Left = 426
-  Top = 417
+  Left = -2
+  Top = 284
   Width = 770
   Height = 452
   Color = clBtnFace
@@ -24,13 +24,14 @@ object frmMain: TfrmMain
   PixelsPerInch = 96
   TextHeight = 13
   object paLeftBar: TPanel
-    Left = 524
+    Left = 516
     Top = 0
     Width = 238
-    Height = 401
+    Height = 396
     Align = alRight
     BevelInner = bvLowered
     BevelOuter = bvNone
+    Color = 4473924
     TabOrder = 0
     object paTools: TPanel
       Left = 1
@@ -47,8 +48,14 @@ object frmMain: TfrmMain
         Align = alTop
         Alignment = taCenter
         Caption = 'Toolbar'
-        Color = clGray
+        Color = 4473924
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 15461355
+        Font.Height = -11
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
         ParentColor = False
+        ParentFont = False
         OnClick = TopClick
       end
       object sbToolsMin: TExtBtn
@@ -120,8 +127,8 @@ object frmMain: TfrmMain
   end
   object paBottomBar: TPanel
     Left = 0
-    Top = 401
-    Width = 762
+    Top = 396
+    Width = 754
     Height = 17
     Align = alBottom
     BevelInner = bvLowered
@@ -131,40 +138,48 @@ object frmMain: TfrmMain
   object paMain: TPanel
     Left = 0
     Top = 0
-    Width = 524
-    Height = 401
+    Width = 516
+    Height = 396
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 2
     object paTopBar: TPanel
       Left = 0
       Top = 0
-      Width = 524
-      Height = 18
+      Width = 516
+      Height = 80
       Align = alTop
       BevelOuter = bvNone
+      Color = 4473924
       TabOrder = 0
     end
     object paRender: TPanel
       Left = 0
-      Top = 18
-      Width = 524
-      Height = 383
+      Top = 80
+      Width = 516
+      Height = 316
       Align = alClient
       BevelOuter = bvNone
       Color = 4868682
+      ParentShowHint = False
+      ShowHint = True
       TabOrder = 1
       OnResize = paRenderResize
       object D3DWindow: TD3DWindow
         Left = 6
-        Top = 6
+        Top = 24
         Width = 513
-        Height = 371
+        Height = 353
         FocusedColor = 9502719
         UnfocusedColor = 9211020
         OnChangeFocus = D3DWindowChangeFocus
         BorderStyle = bsNone
-        Color = 5592405
+        Color = 4473924
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 15461355
+        Font.Height = -11
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
         TabOrder = 0
         OnKeyDown = D3DWindowKeyDown
         OnKeyPress = D3DWindowKeyPress

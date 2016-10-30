@@ -1,13 +1,13 @@
 object fraFogVol: TfraFogVol
-  Left = 533
-  Top = 437
+  Left = 540
+  Top = 309
   Align = alClient
   BorderStyle = bsNone
   ClientHeight = 327
   ClientWidth = 218
-  Color = 10528425
+  Color = 4473924
   Font.Charset = DEFAULT_CHARSET
-  Font.Color = clWindowText
+  Font.Color = 15461355
   Font.Height = -11
   Font.Name = 'MS Sans Serif'
   Font.Style = []
@@ -20,7 +20,7 @@ object fraFogVol: TfraFogVol
     Width = 218
     Height = 41
     Align = alTop
-    ParentColor = True
+    Color = 4473924
     TabOrder = 0
     DesignSize = (
       218
@@ -33,8 +33,14 @@ object fraFogVol: TfraFogVol
       Align = alTop
       Alignment = taCenter
       Caption = 'Commands'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
     end
     object ExtBtn2: TExtBtn
       Left = 205
@@ -69,9 +75,10 @@ object fraFogVol: TfraFogVol
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Group Selected'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -88,9 +95,10 @@ object fraFogVol: TfraFogVol
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'UnGroup Selected'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []

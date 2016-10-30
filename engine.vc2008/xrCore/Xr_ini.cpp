@@ -747,7 +747,8 @@ void CInifile::w_string( LPCSTR S, LPCSTR L, LPCSTR V, LPCSTR comment)
     	if (0==xr_strcmp(*it->first, *I.first)) 
 		{
 			BOOL b = m_flags.test(eOverrideNames);
-			R_ASSERT2(b,make_string("name[%s] already exist in section[%s]",line,sect).c_str());
+			//R_ASSERT2(b,make_string("name[%s] already exist in section[%s]",line,sect).c_str());
+			Msg			("kakoi-to_error");
             *it  = I;
 		} else 
 		{

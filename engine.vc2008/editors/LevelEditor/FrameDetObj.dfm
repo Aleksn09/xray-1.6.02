@@ -1,14 +1,14 @@
 object fraDetailObject: TfraDetailObject
-  Left = 723
-  Top = 289
+  Left = 1073
+  Top = 298
   VertScrollBar.Visible = False
   Align = alClient
   BorderStyle = bsNone
-  ClientHeight = 250
+  ClientHeight = 381
   ClientWidth = 217
-  Color = 10528425
+  Color = 4473924
   Font.Charset = DEFAULT_CHARSET
-  Font.Color = clWindowText
+  Font.Color = 15461355
   Font.Height = -11
   Font.Name = 'MS Sans Serif'
   Font.Style = []
@@ -21,7 +21,7 @@ object fraDetailObject: TfraDetailObject
     Width = 217
     Height = 154
     Align = alTop
-    ParentColor = True
+    Color = 4473924
     TabOrder = 0
     object Label1: TLabel
       Left = 1
@@ -31,8 +31,14 @@ object fraDetailObject: TfraDetailObject
       Align = alTop
       Alignment = taCenter
       Caption = 'DO Commands'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
       OnClick = ExpandClick
     end
     object ExtBtn3: TExtBtn
@@ -68,9 +74,10 @@ object fraDetailObject: TfraDetailObject
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'First Initialize'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -88,9 +95,10 @@ object fraDetailObject: TfraDetailObject
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Reinitialize All'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -108,9 +116,10 @@ object fraDetailObject: TfraDetailObject
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Reinitialize Objects Only'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -128,9 +137,10 @@ object fraDetailObject: TfraDetailObject
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Clear Slots'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -148,9 +158,10 @@ object fraDetailObject: TfraDetailObject
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Update Renderer'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -168,9 +179,10 @@ object fraDetailObject: TfraDetailObject
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Clear Details'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -200,9 +212,10 @@ object fraDetailObject: TfraDetailObject
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Object List'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -226,9 +239,10 @@ object fraDetailObject: TfraDetailObject
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Reinitialize Selected Slot Objects'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []

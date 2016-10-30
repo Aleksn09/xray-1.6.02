@@ -6,9 +6,9 @@ object fraLight: TfraLight
   BorderStyle = bsNone
   ClientHeight = 115
   ClientWidth = 217
-  Color = 10528425
+  Color = 4473924
   Font.Charset = DEFAULT_CHARSET
-  Font.Color = clBlack
+  Font.Color = 15461355
   Font.Height = -11
   Font.Name = 'MS Sans Serif'
   Font.Style = []
@@ -21,7 +21,7 @@ object fraLight: TfraLight
     Width = 217
     Height = 49
     Align = alTop
-    ParentColor = True
+    Color = 4473924
     TabOrder = 0
     object ebUseSelInD3D: TExtBtn
       Left = 2
@@ -33,9 +33,10 @@ object fraLight: TfraLight
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Enable Sel'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -50,8 +51,14 @@ object fraLight: TfraLight
       Align = alTop
       Alignment = taCenter
       Caption = 'Affect in D3D'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
       OnClick = ExpandClick
     end
     object ExtBtn2: TExtBtn
@@ -87,9 +94,10 @@ object fraLight: TfraLight
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Disable Sel'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -106,9 +114,10 @@ object fraLight: TfraLight
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Enable All'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -125,9 +134,10 @@ object fraLight: TfraLight
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Disable All'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []

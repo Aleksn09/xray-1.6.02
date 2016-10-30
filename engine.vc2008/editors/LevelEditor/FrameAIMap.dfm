@@ -1,6 +1,6 @@
 object fraAIMap: TfraAIMap
-  Left = 817
-  Top = 465
+  Left = 1072
+  Top = 296
   VertScrollBar.Visible = False
   Align = alClient
   BorderStyle = bsNone
@@ -21,7 +21,7 @@ object fraAIMap: TfraAIMap
     Width = 219
     Height = 64
     Align = alTop
-    ParentColor = True
+    Color = 4473924
     TabOrder = 0
     object Label2: TLabel
       Left = 1
@@ -31,8 +31,14 @@ object fraAIMap: TfraAIMap
       Align = alTop
       Alignment = taCenter
       Caption = 'AI Map Commands'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
       OnClick = ExpandClick
     end
     object ExtBtn2: TExtBtn
@@ -67,9 +73,10 @@ object fraAIMap: TfraAIMap
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Generate Full'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -86,9 +93,10 @@ object fraAIMap: TfraAIMap
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Smooth Selected'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -105,9 +113,10 @@ object fraAIMap: TfraAIMap
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Clear AI Map'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -124,9 +133,10 @@ object fraAIMap: TfraAIMap
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Generate Selected'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -143,9 +153,10 @@ object fraAIMap: TfraAIMap
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Reset Selected'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -160,8 +171,8 @@ object fraAIMap: TfraAIMap
     Width = 219
     Height = 268
     Align = alClient
+    Color = 4473924
     Constraints.MinHeight = 268
-    ParentColor = True
     TabOrder = 1
     object Label3: TLabel
       Left = 1
@@ -171,8 +182,14 @@ object fraAIMap: TfraAIMap
       Align = alTop
       Alignment = taCenter
       Caption = 'AI Map Nodes'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
       OnClick = ExpandClick
     end
     object ExtBtn4: TExtBtn
@@ -207,11 +224,12 @@ object fraAIMap: TfraAIMap
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       GroupIndex = 1
       Down = True
       Caption = 'Add'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -228,10 +246,11 @@ object fraAIMap: TfraAIMap
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       GroupIndex = 1
       Caption = 'Delete'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -249,8 +268,9 @@ object fraAIMap: TfraAIMap
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -395,10 +415,11 @@ object fraAIMap: TfraAIMap
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       GroupIndex = 1
       Caption = 'Invert'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -413,7 +434,7 @@ object fraAIMap: TfraAIMap
       Height = 13
       Caption = 'Link Commands:'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = [fsUnderline]
@@ -429,11 +450,12 @@ object fraAIMap: TfraAIMap
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       BtnColor = 10528425
       GroupIndex = 2
       Caption = 'Ignore Constraints'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -452,12 +474,13 @@ object fraAIMap: TfraAIMap
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       BtnColor = 10528425
       GroupIndex = 3
       Down = True
       Caption = 'Auto Link'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -481,9 +504,10 @@ object fraAIMap: TfraAIMap
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Select 0-Link'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -502,9 +526,10 @@ object fraAIMap: TfraAIMap
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Select 1-Link'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -523,9 +548,10 @@ object fraAIMap: TfraAIMap
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Select 2-Link'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -574,8 +600,14 @@ object fraAIMap: TfraAIMap
       Alignment = taCenter
       AutoSize = False
       Caption = 'Ignore materials'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
       OnClick = ExpandClick
     end
     object btnAddIgnoredMaterial: TExtBtn
@@ -588,9 +620,10 @@ object fraAIMap: TfraAIMap
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Add'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -604,8 +637,7 @@ object fraAIMap: TfraAIMap
       Top = 98
       Width = 210
       Height = 87
-      BorderStyle = bsNone
-      Color = clGray
+      Color = 5658198
       ExtendedSelect = False
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack

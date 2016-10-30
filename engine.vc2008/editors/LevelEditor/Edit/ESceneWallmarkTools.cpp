@@ -25,7 +25,7 @@
 #define WM_CHUNK_ITEMS2				0x0005
 //----------------------------------------------------
 
-#define MAX_WALLMARK_COUNT			500
+#define MAX_WALLMARK_COUNT			2000
 #define MAX_WALLMARK_VERTEX_COUNT	512
 #define COMPILER_SHADER				"def_shaders\\def_vertex_ghost_no_shadow"
 

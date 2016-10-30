@@ -1,6 +1,6 @@
 object fraPortal: TfraPortal
-  Left = 129
-  Top = 69
+  Left = 488
+  Top = 268
   Width = 225
   Height = 290
   VertScrollBar.ButtonSize = 11
@@ -22,21 +22,27 @@ object fraPortal: TfraPortal
   object paCommands: TPanel
     Left = 0
     Top = 0
-    Width = 217
+    Width = 209
     Height = 257
     Align = alClient
-    ParentColor = True
+    Color = 4473924
     TabOrder = 0
     object APHeadLabel1: TLabel
       Left = 1
       Top = 1
-      Width = 215
+      Width = 207
       Height = 13
       Align = alTop
       Alignment = taCenter
       Caption = 'Command'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
       OnClick = TopClick
     end
     object ExtBtn2: TExtBtn
@@ -65,15 +71,16 @@ object fraPortal: TfraPortal
     object ebInvertOrient: TExtBtn
       Left = 1
       Top = 14
-      Width = 215
+      Width = 207
       Height = 15
       Align = alTop
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Invert Orientation'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -83,15 +90,16 @@ object fraPortal: TfraPortal
     object ebComputeAllPortals: TExtBtn
       Left = 1
       Top = 29
-      Width = 215
+      Width = 207
       Height = 15
       Align = alTop
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Compute All Portals'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -101,15 +109,16 @@ object fraPortal: TfraPortal
     object ebComputeSelPortals: TExtBtn
       Left = 1
       Top = 44
-      Width = 215
+      Width = 207
       Height = 15
       Align = alTop
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Compute Sel. Portals'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -119,15 +128,16 @@ object fraPortal: TfraPortal
     object ExtBtn1: TExtBtn
       Left = 1
       Top = 59
-      Width = 215
+      Width = 207
       Height = 15
       Align = alTop
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Remove Similar'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []

@@ -1,8 +1,8 @@
 object DB_packer: TDB_packer
-  Left = 467
-  Top = 124
-  Width = 687
-  Height = 604
+  Left = -8
+  Top = -8
+  Width = 1382
+  Height = 754
   Caption = 'DB_packer'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -16,17 +16,17 @@ object DB_packer: TDB_packer
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 679
-    Height = 470
+    Width = 1366
+    Height = 615
     Align = alClient
     BevelOuter = bvNone
     Color = 10528425
     TabOrder = 0
     object Panel5: TPanel
-      Left = 382
+      Left = 1069
       Top = 0
       Width = 297
-      Height = 470
+      Height = 615
       Align = alRight
       BevelInner = bvLowered
       BevelOuter = bvSpace
@@ -36,7 +36,7 @@ object DB_packer: TDB_packer
         Left = 2
         Top = 2
         Width = 293
-        Height = 466
+        Height = 611
         Cursor = crDefault
         LeftPosition = 0
         RootFolder = sfoDesktop
@@ -76,6 +76,7 @@ object DB_packer: TDB_packer
         LineBorderInactiveColor = clBlack
         LineHeight = 17
         LinesColor = clBtnShadow
+        LineHintColor = clGray
         MouseFrameSelect = True
         MultiSelect = False
         OwnerDrawMask = '~~@~~'
@@ -87,7 +88,7 @@ object DB_packer: TDB_packer
         VertScrollBarStyles.Width = 17
         VertScrollBarStyles.ButtonSize = 8
         TextColor = clBtnText
-        BkColor = clBtnFace
+        BkColor = 5658198
         DockOrientation = doNoOrient
         TabOrder = 0
         TabStop = True
@@ -96,8 +97,8 @@ object DB_packer: TDB_packer
     object Panel6: TPanel
       Left = 0
       Top = 0
-      Width = 382
-      Height = 470
+      Width = 1069
+      Height = 615
       Align = alClient
       BevelInner = bvLowered
       BevelOuter = bvSpace
@@ -106,7 +107,7 @@ object DB_packer: TDB_packer
       object Splitter1: TSplitter
         Left = 2
         Top = 233
-        Width = 378
+        Width = 1065
         Height = 2
         Cursor = crVSplit
         Align = alTop
@@ -114,34 +115,42 @@ object DB_packer: TDB_packer
       object Panel3: TPanel
         Left = 2
         Top = 235
-        Width = 378
-        Height = 233
+        Width = 1065
+        Height = 378
         Align = alClient
         BevelInner = bvLowered
         BevelOuter = bvSpace
-        Color = 10528425
+        Color = 4473924
         TabOrder = 0
         DesignSize = (
-          378
-          233)
+          1065
+          378)
         object MxLabel2: TMxLabel
           Left = 8
           Top = 4
           Width = 58
           Height = 13
           Caption = 'Include files'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = 15461355
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+          ShadowColor = 11053224
         end
         object ExtBtn3: TExtBtn
-          Left = 336
+          Left = 1031
           Top = 26
           Width = 33
           Height = 17
           Align = alNone
           Anchors = [akTop, akRight]
           BevelShow = False
+          NormalColor = 15461355
           Caption = '<<'
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = 15461355
           Font.Height = -11
           Font.Name = 'MS Sans Serif'
           Font.Style = []
@@ -151,16 +160,17 @@ object DB_packer: TDB_packer
           OnClick = ExtBtn3Click
         end
         object ExtBtn4: TExtBtn
-          Left = 336
+          Left = 1031
           Top = 42
           Width = 33
           Height = 17
           Align = alNone
           Anchors = [akTop, akRight]
           BevelShow = False
+          NormalColor = 15461355
           Caption = '>>'
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = 15461355
           Font.Height = -11
           Font.Name = 'MS Sans Serif'
           Font.Style = []
@@ -172,8 +182,8 @@ object DB_packer: TDB_packer
         object lbIncludeFiles: TElListBox
           Left = 8
           Top = 24
-          Width = 321
-          Height = 201
+          Width = 1016
+          Height = 351
           AllowGrayed = False
           ItemHeight = 13
           MultiSelect = True
@@ -189,21 +199,22 @@ object DB_packer: TDB_packer
           SelectedFont.Name = 'MS Sans Serif'
           SelectedFont.Style = []
           Anchors = [akLeft, akTop, akRight, akBottom]
+          Color = 5658198
           TabOrder = 0
         end
       end
       object Panel4: TPanel
         Left = 2
         Top = 2
-        Width = 378
+        Width = 1065
         Height = 231
         Align = alTop
         BevelInner = bvLowered
         BevelOuter = bvSpace
-        Color = 10528425
+        Color = 4473924
         TabOrder = 1
         DesignSize = (
-          378
+          1065
           231)
         object MxLabel1: TMxLabel
           Left = 8
@@ -211,18 +222,26 @@ object DB_packer: TDB_packer
           Width = 71
           Height = 13
           Caption = 'Include folders'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = 15461355
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+          ShadowColor = 11053224
         end
         object ExtBtn1: TExtBtn
-          Left = 336
+          Left = 1031
           Top = 42
           Width = 33
           Height = 17
           Align = alNone
           Anchors = [akTop, akRight]
           BevelShow = False
+          NormalColor = 15461355
           Caption = '<<'
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = 15461355
           Font.Height = -11
           Font.Name = 'MS Sans Serif'
           Font.Style = []
@@ -232,16 +251,17 @@ object DB_packer: TDB_packer
           OnClick = ExtBtn1Click
         end
         object ExtBtn2: TExtBtn
-          Left = 336
+          Left = 1031
           Top = 58
           Width = 33
           Height = 17
           Align = alNone
           Anchors = [akTop, akRight]
           BevelShow = False
+          NormalColor = 15461355
           Caption = '>>'
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = 15461355
           Font.Height = -11
           Font.Name = 'MS Sans Serif'
           Font.Style = []
@@ -253,7 +273,7 @@ object DB_packer: TDB_packer
         object lbIncludeFolders: TElListBox
           Left = 8
           Top = 24
-          Width = 321
+          Width = 1016
           Height = 199
           AllowGrayed = False
           ItemHeight = 13
@@ -262,6 +282,7 @@ object DB_packer: TDB_packer
           TopIndex = 0
           BorderSides = [ebsLeft, ebsRight, ebsTop, ebsBottom]
           HorizontalScroll = False
+          InactiveBorderType = fbtRaisedOuter
           LineBorderActiveColor = clBlack
           LineBorderInactiveColor = clBlack
           SelectedFont.Charset = DEFAULT_CHARSET
@@ -270,6 +291,7 @@ object DB_packer: TDB_packer
           SelectedFont.Name = 'MS Sans Serif'
           SelectedFont.Style = []
           Anchors = [akLeft, akTop, akRight, akBottom]
+          Color = 5658198
           TabOrder = 0
         end
       end
@@ -277,13 +299,13 @@ object DB_packer: TDB_packer
   end
   object Panel2: TPanel
     Left = 0
-    Top = 470
-    Width = 679
+    Top = 615
+    Width = 1366
     Height = 100
     Align = alBottom
     BevelInner = bvLowered
     BevelOuter = bvSpace
-    Color = 10528425
+    Color = 4473924
     TabOrder = 1
     object btnLoad: TExtBtn
       Left = 0
@@ -292,9 +314,10 @@ object DB_packer: TDB_packer
       Height = 17
       Align = alNone
       BevelShow = False
+      NormalColor = 15461355
       Caption = 'Load'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -310,9 +333,10 @@ object DB_packer: TDB_packer
       Height = 17
       Align = alNone
       BevelShow = False
+      NormalColor = 15461355
       Caption = 'Save'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -328,9 +352,10 @@ object DB_packer: TDB_packer
       Height = 17
       Align = alNone
       BevelShow = False
+      NormalColor = 15461355
       Caption = 'Start'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []

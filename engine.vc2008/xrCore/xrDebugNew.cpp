@@ -337,7 +337,8 @@ int out_of_memory_handler	(size_t size)
 		Msg					("* [x-ray]: economy: strings[%d K], smem[%d K]",eco_strings/1024,eco_smem);
 	}
 
-	Debug.fatal				(DEBUG_INFO,"Out of memory. Memory request: %d K",size/1024);
+	//Debug.fatal				(DEBUG_INFO,"Out of memory. Memory request: %d K",size/1024);
+	Msg	("Out of memory. Memory request: %d K");	
 	return					1;
 }
 

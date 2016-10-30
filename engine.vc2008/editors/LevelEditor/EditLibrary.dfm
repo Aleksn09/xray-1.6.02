@@ -1,6 +1,6 @@
 object frmEditLibrary: TfrmEditLibrary
-  Left = 598
-  Top = 244
+  Left = 292
+  Top = 184
   Width = 332
   Height = 468
   BorderIcons = [biSystemMenu, biMinimize]
@@ -26,13 +26,13 @@ object frmEditLibrary: TfrmEditLibrary
   PixelsPerInch = 96
   TextHeight = 13
   object paCommands: TPanel
-    Left = 192
+    Left = 184
     Top = 0
     Width = 132
-    Height = 434
+    Height = 429
     Align = alRight
     BevelOuter = bvNone
-    ParentColor = True
+    Color = 4473924
     TabOrder = 0
     object ebMakeThm: TExtBtn
       Left = 2
@@ -41,11 +41,12 @@ object frmEditLibrary: TfrmEditLibrary
       Height = 17
       Align = alNone
       BevelShow = False
-      BtnColor = 10528425
+      NormalColor = 15461355
+      BtnColor = 4473924
       Caption = 'Make Thumbnail'
       Enabled = False
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -61,10 +62,11 @@ object frmEditLibrary: TfrmEditLibrary
       Height = 18
       Align = alNone
       BevelShow = False
-      BtnColor = 10528425
+      NormalColor = 15461355
+      BtnColor = 4473924
       Caption = 'Properties'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -80,11 +82,12 @@ object frmEditLibrary: TfrmEditLibrary
       Height = 17
       Align = alNone
       BevelShow = False
-      BtnColor = 10528425
+      NormalColor = 15461355
+      BtnColor = 4473924
       Caption = 'Make LOD (High Quality)'
       Enabled = False
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -108,11 +111,12 @@ object frmEditLibrary: TfrmEditLibrary
       Height = 17
       Align = alNone
       BevelShow = False
-      BtnColor = 10528425
+      NormalColor = 15461355
+      BtnColor = 4473924
       Caption = 'Make LOD (Low Quality)'
       Enabled = False
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -127,6 +131,12 @@ object frmEditLibrary: TfrmEditLibrary
       Width = 128
       Height = 17
       Caption = 'Preview'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
       TabOrder = 0
       OnClick = cbPreviewClick
     end
@@ -137,7 +147,7 @@ object frmEditLibrary: TfrmEditLibrary
       Height = 34
       Align = alTop
       BevelOuter = bvNone
-      Color = 10528425
+      Color = 4473924
       TabOrder = 1
       object lbFaces: TLabel
         Left = 81
@@ -158,11 +168,13 @@ object frmEditLibrary: TfrmEditLibrary
         Width = 69
         Height = 13
         Caption = 'Face count:'
+        Color = 4473924
         Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
+        Font.Color = 15461355
         Font.Height = -11
         Font.Name = 'MS Sans Serif'
         Font.Style = [fsBold]
+        ParentColor = False
         ParentFont = False
       end
       object RxLabel3: TLabel
@@ -172,7 +184,7 @@ object frmEditLibrary: TfrmEditLibrary
         Height = 13
         Caption = 'Vertex count:'
         Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
+        Font.Color = 15461355
         Font.Height = -11
         Font.Name = 'MS Sans Serif'
         Font.Style = [fsBold]
@@ -194,7 +206,7 @@ object frmEditLibrary: TfrmEditLibrary
     end
     object paControl: TPanel
       Left = 0
-      Top = 288
+      Top = 283
       Width = 132
       Height = 146
       Align = alBottom
@@ -211,10 +223,11 @@ object frmEditLibrary: TfrmEditLibrary
         Height = 17
         Align = alNone
         BevelShow = False
-        BtnColor = 10528425
+        NormalColor = 15461355
+        BtnColor = 4473924
         Caption = 'Import Object'
         Font.Charset = DEFAULT_CHARSET
-        Font.Color = clBlack
+        Font.Color = 15461355
         Font.Height = -11
         Font.Name = 'MS Sans Serif'
         Font.Style = []
@@ -230,10 +243,11 @@ object frmEditLibrary: TfrmEditLibrary
         Height = 17
         Align = alNone
         BevelShow = False
-        BtnColor = 10528425
+        NormalColor = 15461355
+        BtnColor = 4473924
         Caption = 'Export LWO'
         Font.Charset = DEFAULT_CHARSET
-        Font.Color = clBlack
+        Font.Color = 15461355
         Font.Height = -11
         Font.Name = 'MS Sans Serif'
         Font.Style = []
@@ -250,11 +264,12 @@ object frmEditLibrary: TfrmEditLibrary
         Align = alNone
         Anchors = [akLeft, akBottom]
         BevelShow = False
-        BtnColor = 10528425
+        NormalColor = 15461355
+        BtnColor = 4473924
         Caption = 'Save'
         Enabled = False
         Font.Charset = DEFAULT_CHARSET
-        Font.Color = clBlack
+        Font.Color = 15461355
         Font.Height = -11
         Font.Name = 'MS Sans Serif'
         Font.Style = []
@@ -271,10 +286,11 @@ object frmEditLibrary: TfrmEditLibrary
         Align = alNone
         Anchors = [akLeft, akBottom]
         BevelShow = False
-        BtnColor = 10528425
+        NormalColor = 15461355
+        BtnColor = 4473924
         Caption = 'Close'
         Font.Charset = DEFAULT_CHARSET
-        Font.Color = clBlack
+        Font.Color = 15461355
         Font.Height = -11
         Font.Name = 'MS Sans Serif'
         Font.Style = []
@@ -290,10 +306,11 @@ object frmEditLibrary: TfrmEditLibrary
         Height = 17
         Align = alNone
         BevelShow = False
-        BtnColor = 10528425
+        NormalColor = 15461355
+        BtnColor = 4473924
         Caption = 'Rename Object'
         Font.Charset = DEFAULT_CHARSET
-        Font.Color = clBlack
+        Font.Color = 15461355
         Font.Height = -11
         Font.Name = 'MS Sans Serif'
         Font.Style = []
@@ -309,10 +326,11 @@ object frmEditLibrary: TfrmEditLibrary
         Height = 17
         Align = alNone
         BevelShow = False
-        BtnColor = 10528425
+        NormalColor = 15461355
+        BtnColor = 4473924
         Caption = 'Remove Object'
         Font.Charset = DEFAULT_CHARSET
-        Font.Color = clBlack
+        Font.Color = 15461355
         Font.Height = -11
         Font.Name = 'MS Sans Serif'
         Font.Style = []
@@ -328,10 +346,11 @@ object frmEditLibrary: TfrmEditLibrary
         Height = 17
         Align = alNone
         BevelShow = False
-        BtnColor = 10528425
+        NormalColor = 15461355
+        BtnColor = 4473924
         Caption = 'Export OBJ'
         Font.Charset = DEFAULT_CHARSET
-        Font.Color = clBlack
+        Font.Color = 15461355
         Font.Height = -11
         Font.Name = 'MS Sans Serif'
         Font.Style = []
@@ -349,7 +368,13 @@ object frmEditLibrary: TfrmEditLibrary
       Align = alTop
       BevelOuter = bvLowered
       Caption = '<no image>'
-      ParentColor = True
+      Color = 5658198
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
       TabOrder = 3
       OnPaint = paImagePaint
     end
@@ -357,11 +382,11 @@ object frmEditLibrary: TfrmEditLibrary
   object paItems: TPanel
     Left = 0
     Top = 0
-    Width = 192
-    Height = 434
+    Width = 184
+    Height = 429
     Align = alClient
     BevelOuter = bvNone
-    ParentColor = True
+    Color = 5658198
     TabOrder = 1
   end
   object fsStorage: TFormStorage

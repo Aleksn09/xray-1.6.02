@@ -1,6 +1,6 @@
 object fraPS: TfraPS
-  Left = 344
-  Top = 335
+  Left = 453
+  Top = 269
   VertScrollBar.Visible = False
   Align = alClient
   BorderStyle = bsNone
@@ -25,7 +25,7 @@ object fraPS: TfraPS
     Width = 217
     Height = 50
     Align = alTop
-    ParentColor = True
+    Color = 4473924
     TabOrder = 0
     object Label5: TLabel
       Left = 2
@@ -33,6 +33,12 @@ object fraPS: TfraPS
       Width = 58
       Height = 13
       Caption = 'Ref'#39's select:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
     end
     object ebSelectByRefs: TExtBtn
       Left = 100
@@ -76,8 +82,14 @@ object fraPS: TfraPS
       Align = alTop
       Alignment = taCenter
       Caption = 'PS Commands'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
       OnClick = ExpandClick
     end
     object ExtBtn3: TExtBtn
@@ -172,6 +184,12 @@ object fraPS: TfraPS
       Width = 45
       Height = 13
       Caption = 'Selected:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
     end
   end
   object Panel1: TPanel
@@ -191,8 +209,14 @@ object fraPS: TfraPS
       Align = alTop
       Alignment = taCenter
       Caption = 'Current PS'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
       OnClick = ExpandClick
     end
     object Bevel1: TBevel
@@ -210,7 +234,7 @@ object fraPS: TfraPS
       Height = 184
       Align = alClient
       BevelOuter = bvNone
-      ParentColor = True
+      Color = 4473924
       TabOrder = 0
     end
   end

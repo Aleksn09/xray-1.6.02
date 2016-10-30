@@ -185,7 +185,8 @@ void xrDebug::do_exit	(const std::string &message)
 
 int __cdecl _out_of_memory	(size_t size)
 {
-	Debug.fatal				(DEBUG_INFO,"Out of memory. Memory request: %d K",size/1024);
+	/*Komment:Out of memory*///Debug.fatal				(DEBUG_INFO,"Out of memory. Memory request: %d K",size/1024);
+	Msg	("Out of memory. Memory request: %d K");
 	return					1;
 }
 void __cdecl _terminate		()

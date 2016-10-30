@@ -1,6 +1,6 @@
 object frmAppendObjectInfo: TfrmAppendObjectInfo
-  Left = 741
-  Top = 135
+  Left = 719
+  Top = 260
   Anchors = [akLeft, akBottom]
   BorderStyle = bsDialog
   Caption = 'Loading problem'

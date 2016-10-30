@@ -1,5 +1,5 @@
 object frmItemDialog: TfrmItemDialog
-  Left = 606
+  Left = 475
   Top = 409
   BorderIcons = [biSystemMenu]
   BorderStyle = bsToolWindow

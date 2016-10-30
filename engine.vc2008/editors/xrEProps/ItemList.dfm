@@ -1,14 +1,14 @@
 object ItemList: TItemList
-  Left = 72
-  Top = 197
+  Left = 883
+  Top = 167
   Width = 320
   Height = 526
   BiDiMode = bdRightToLeft
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Item list'
-  Color = clGray
+  Color = 5658198
   Font.Charset = DEFAULT_CHARSET
-  Font.Color = clWindowText
+  Font.Color = 15461355
   Font.Height = -11
   Font.Name = 'MS Sans Serif'
   Font.Style = []
@@ -25,7 +25,7 @@ object ItemList: TItemList
     Left = 0
     Top = 0
     Width = 304
-    Height = 473
+    Height = 470
     Cursor = crDefault
     LeftPosition = 0
     HeaderPopupMenu = pmSystem
@@ -94,28 +94,32 @@ object ItemList: TItemList
     DragTrgDrawMode = dtdDownColorLine
     ExplorerEditMode = True
     FilteredVisibility = True
-    FocusedSelectColor = 10526880
-    FocusedSelectTextColor = clBlack
+    FocusedSelectColor = 5066061
+    FocusedSelectTextColor = 15461355
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clBlack
+    Font.Color = 15461355
     Font.Height = -11
     Font.Name = 'MS Sans Serif'
     Font.Style = []
     FullRowSelect = False
+    GradientStartColor = 15461355
+    GradientEndColor = 15461355
     GradientSteps = 64
-    HeaderColor = 7368816
+    HeaderActiveFilterColor = 15461355
+    HeaderColor = 4079166
     HeaderHeight = 17
     HeaderHotTrack = False
     HeaderSections.Data = {
-      F4FFFFFF0100000064671901003B0000FFFFFFFF0000010100001901C3000000
+      F4FFFFFF0100000064671901003B0000FFFFFFFF0000010100000000C3000000
       0000000010270000000101004014FF040000000001000000FFFFFFFF00000100
       0000000000000000000100000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000060000004974656D73000100
       0000000000000000000000}
+    HeaderFilterColor = 15461355
     HeaderFlat = True
     HeaderFont.Charset = DEFAULT_CHARSET
-    HeaderFont.Color = clWindowText
+    HeaderFont.Color = 15461355
     HeaderFont.Height = -11
     HeaderFont.Name = 'MS Sans Serif'
     HeaderFont.Style = []
@@ -125,14 +129,17 @@ object ItemList: TItemList
     HorzScrollBarStyles.Width = 17
     HorzScrollBarStyles.ButtonSize = 16
     HorzScrollBarStyles.UseSystemMetrics = False
+    HorzScrollBarStyles.ArrowColor = 15461355
+    HorzScrollBarStyles.BarColor = 4473924
+    HorzScrollBarStyles.HintTextColor = 15461355
     HorzScrollBarStyles.UseXPThemes = False
     IgnoreEnabled = False
     IncrementalSearch = False
     InplaceEditorDelay = 0
     ItemIndent = 14
     KeepSelectionWithinLevel = False
-    LineBorderActiveColor = clBlack
-    LineBorderInactiveColor = clBlack
+    LineBorderActiveColor = 15461355
+    LineBorderInactiveColor = 15461355
     LineHeight = 17
     LinesColor = clBtnShadow
     LinesStyle = psSolid
@@ -169,8 +176,8 @@ object ItemList: TItemList
     SortType = stCustom
     StoragePath = '\Tree'
     SortUseCase = False
-    StripedOddColor = clGray
-    StripedEvenColor = 8158332
+    StripedOddColor = 4473924
+    StripedEvenColor = 4473924
     StripedItems = True
     TabOrder = 0
     TabStop = True
@@ -181,11 +188,14 @@ object ItemList: TItemList
     VertScrollBarStyles.Width = 17
     VertScrollBarStyles.ButtonSize = 16
     VertScrollBarStyles.UseSystemMetrics = False
+    VertScrollBarStyles.ArrowColor = 15461355
+    VertScrollBarStyles.BarColor = 4473924
+    VertScrollBarStyles.HintTextColor = 15461355
     VertScrollBarStyles.UseXPThemes = False
     VirtualityLevel = vlNone
     UseXPThemes = False
-    TextColor = clBtnText
-    BkColor = clGray
+    TextColor = 15461355
+    BkColor = 5658198
     OnHeaderResize = tvItemsHeaderResize
     OnAfterSelectionChange = tvItemsAfterSelectionChange
     OnItemChange = tvItemsItemChange
@@ -201,14 +211,14 @@ object ItemList: TItemList
   end
   object paStatus: TPanel
     Left = 0
-    Top = 473
+    Top = 470
     Width = 304
     Height = 17
     Align = alBottom
     Alignment = taLeftJustify
     BevelOuter = bvNone
     Caption = ' Items count: '
-    ParentColor = True
+    Color = 4079166
     TabOrder = 1
     object Bevel2: TBevel
       Left = 0
@@ -230,13 +240,13 @@ object ItemList: TItemList
   object pmSystem: TMxPopupMenu
     Alignment = paCenter
     MarginStartColor = 10921638
-    MarginEndColor = 2763306
-    BKColor = 10528425
-    SelColor = clBlack
-    SelFontColor = 10526880
-    SepHColor = 1644825
-    SepLColor = 13158600
-    LeftMargin = 10
+    MarginEndColor = 15461355
+    BKColor = 3487029
+    SelColor = 5066061
+    SelFontColor = 15461355
+    FontColor = 15461355
+    SepHColor = 5066061
+    SepLColor = 5066061
     Style = msOwnerDraw
     Left = 112
     Top = 16
@@ -271,12 +281,12 @@ object ItemList: TItemList
     Alignment = paCenter
     MarginStartColor = 10921638
     MarginEndColor = 2763306
-    BKColor = 10528425
-    SelColor = clBlack
-    SelFontColor = 10526880
-    SepHColor = 1644825
-    SepLColor = 13158600
-    LeftMargin = 10
+    BKColor = 3487029
+    SelColor = 5066061
+    SelFontColor = 15461355
+    FontColor = 15461355
+    SepHColor = 5066061
+    SepLColor = 5066061
     Style = msOwnerDraw
     Left = 112
     Top = 48
@@ -293,12 +303,12 @@ object ItemList: TItemList
     Alignment = paCenter
     MarginStartColor = 10921638
     MarginEndColor = 2763306
-    BKColor = 10528425
-    SelColor = clBlack
-    SelFontColor = 10526880
-    SepHColor = 1644825
-    SepLColor = 13158600
-    LeftMargin = 10
+    BKColor = 3487029
+    SelColor = 5066061
+    SelFontColor = 15461355
+    FontColor = 15461355
+    SepHColor = 5066061
+    SepLColor = 5066061
     Style = msOwnerDraw
     Left = 144
     Top = 48

@@ -1,14 +1,14 @@
 object fraGroup: TfraGroup
-  Left = 505
-  Top = 307
+  Left = 1015
+  Top = 111
   VertScrollBar.Visible = False
   Align = alClient
   BorderStyle = bsNone
   ClientHeight = 615
   ClientWidth = 213
-  Color = 10528425
+  Color = 4473924
   Font.Charset = DEFAULT_CHARSET
-  Font.Color = clBlack
+  Font.Color = 15461355
   Font.Height = -11
   Font.Name = 'MS Sans Serif'
   Font.Style = []
@@ -21,7 +21,13 @@ object fraGroup: TfraGroup
     Width = 213
     Height = 18
     Align = alTop
-    ParentColor = True
+    Color = 4473924
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 15461355
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 0
     DesignSize = (
       213
@@ -33,9 +39,10 @@ object fraGroup: TfraGroup
       Height = 17
       Align = alNone
       Anchors = [akTop, akRight]
+      NormalColor = 15461355
       Caption = 'Commands'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -134,7 +141,7 @@ object fraGroup: TfraGroup
     Width = 213
     Height = 51
     Align = alTop
-    Color = 10528425
+    Color = 4473924
     TabOrder = 1
     object APHeadLabel2: TLabel
       Left = 1
@@ -144,8 +151,14 @@ object fraGroup: TfraGroup
       Align = alTop
       Alignment = taCenter
       Caption = 'Current Object'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
       OnClick = ExpandClick
     end
     object ebSelect: TExtBtn
@@ -157,9 +170,10 @@ object fraGroup: TfraGroup
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Select...'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -172,6 +186,12 @@ object fraGroup: TfraGroup
       Width = 36
       Height = 13
       Caption = 'Curent:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
       ShadowColor = clGray
       ShadowSize = 0
       ShadowPos = spRightBottom
@@ -183,7 +203,13 @@ object fraGroup: TfraGroup
       Height = 13
       AutoSize = False
       Caption = '<empty>'
-      ShadowColor = 15000804
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ShadowColor = 11053224
       ShadowPos = spRightBottom
     end
     object ebReloadRefs: TExtBtn
@@ -196,9 +222,10 @@ object fraGroup: TfraGroup
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Reload Refs'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -212,7 +239,7 @@ object fraGroup: TfraGroup
     Width = 213
     Height = 51
     Align = alTop
-    Color = 10528425
+    Color = 4473924
     TabOrder = 2
     object Label1: TLabel
       Left = 1
@@ -222,8 +249,14 @@ object fraGroup: TfraGroup
       Align = alTop
       Alignment = taCenter
       Caption = 'Pivot Alignment'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
       OnClick = ExpandClick
     end
     object ebCenterToGroup: TExtBtn
@@ -236,9 +269,10 @@ object fraGroup: TfraGroup
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Center To Group'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -255,9 +289,10 @@ object fraGroup: TfraGroup
       BevelShow = False
       HotTrack = True
       HotColor = 15790320
+      NormalColor = 15461355
       Caption = 'Align To Object...'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -271,7 +306,7 @@ object fraGroup: TfraGroup
     Width = 213
     Height = 46
     Align = alTop
-    Color = 10528425
+    Color = 4473924
     TabOrder = 3
     DesignSize = (
       213
@@ -288,6 +323,12 @@ object fraGroup: TfraGroup
       Width = 84
       Height = 13
       Caption = 'Select by Current:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
       WordWrap = True
     end
     object ExtBtn1: TExtBtn
@@ -298,9 +339,10 @@ object fraGroup: TfraGroup
       Align = alNone
       BevelShow = False
       HotTrack = True
+      NormalColor = 15461355
       Caption = '+'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -315,9 +357,10 @@ object fraGroup: TfraGroup
       Align = alNone
       BevelShow = False
       HotTrack = True
+      NormalColor = 15461355
       Caption = '-'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -332,8 +375,14 @@ object fraGroup: TfraGroup
       Align = alTop
       Alignment = taCenter
       Caption = 'Reference Select'
-      Color = clGray
+      Color = 4079166
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
       ParentColor = False
+      ParentFont = False
       OnClick = ExpandClick
     end
     object ExtBtn5: TExtBtn
@@ -368,9 +417,10 @@ object fraGroup: TfraGroup
       Align = alNone
       BevelShow = False
       HotTrack = True
+      NormalColor = 15461355
       Caption = '=%'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -384,7 +434,7 @@ object fraGroup: TfraGroup
       Height = 13
       Caption = '%'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -398,9 +448,10 @@ object fraGroup: TfraGroup
       Align = alNone
       BevelShow = False
       HotTrack = True
+      NormalColor = 15461355
       Caption = '+%'
       Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
+      Font.Color = 15461355
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
@@ -413,6 +464,12 @@ object fraGroup: TfraGroup
       Width = 92
       Height = 13
       Caption = 'Select by Selected:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 15461355
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
       WordWrap = True
     end
     object seSelPercent: TMultiObjSpinEdit

@@ -1,6 +1,6 @@
 object frmPropertiesEObject: TfrmPropertiesEObject
-  Left = 388
-  Top = 383
+  Left = 448
+  Top = 221
   Width = 467
   Height = 363
   BiDiMode = bdRightToLeft
@@ -26,15 +26,15 @@ object frmPropertiesEObject: TfrmPropertiesEObject
   object ElPageControl1: TElPageControl
     Left = 0
     Top = 0
-    Width = 459
-    Height = 329
-    ActiveTabColor = 10528425
+    Width = 451
+    Height = 324
+    ActiveTabColor = clMenuHighlight
     BorderWidth = 0
-    Color = 10528425
+    Color = 5658198
     DrawFocus = False
     Flat = True
     HotTrack = False
-    InactiveTabColor = 10528425
+    InactiveTabColor = 4473924
     Multiline = False
     RaggedRight = False
     ScrollOpposite = False
@@ -47,11 +47,17 @@ object frmPropertiesEObject: TfrmPropertiesEObject
     HotTrackFont.Height = -11
     HotTrackFont.Name = 'MS Sans Serif'
     HotTrackFont.Style = []
-    TabBkColor = 10528425
+    TabBkColor = 4473924
     ActivePage = tsSurfaces
-    FlatTabBorderColor = clBtnShadow
+    FlatTabBorderColor = 3965660
     Align = alClient
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 15461355
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
     ParentColor = False
+    ParentFont = False
     TabOrder = 0
     UseXPThemes = False
     object tsBasic: TElTabSheet
@@ -64,8 +70,8 @@ object frmPropertiesEObject: TfrmPropertiesEObject
       object paBasic: TPanel
         Left = 0
         Top = 0
-        Width = 455
-        Height = 317
+        Width = 447
+        Height = 305
         Align = alClient
         BevelOuter = bvLowered
         Color = 10528425
@@ -81,18 +87,18 @@ object frmPropertiesEObject: TfrmPropertiesEObject
       object paSurfaces: TPanel
         Left = 0
         Top = 19
-        Width = 319
-        Height = 291
+        Width = 311
+        Height = 286
         Align = alClient
         BevelOuter = bvLowered
-        Color = 10528425
+        Color = 5658198
         TabOrder = 0
       end
       object Panel2: TPanel
-        Left = 319
+        Left = 311
         Top = 19
         Width = 136
-        Height = 291
+        Height = 286
         Align = alRight
         BevelOuter = bvNone
         ParentColor = True
@@ -101,9 +107,17 @@ object frmPropertiesEObject: TfrmPropertiesEObject
           Left = 0
           Top = 0
           Width = 136
-          Height = 291
+          Height = 286
           Align = alClient
           Caption = ' Texture Details '
+          Color = 4473924
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = 15461355
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentColor = False
+          ParentFont = False
           TabOrder = 0
           object RxLabel7: TLabel
             Left = 4
@@ -172,7 +186,7 @@ object frmPropertiesEObject: TfrmPropertiesEObject
             Height = 132
             BevelOuter = bvLowered
             Caption = '<no image>'
-            ParentColor = True
+            Color = 5658198
             TabOrder = 0
             OnPaint = paImagePaint
           end
@@ -181,11 +195,11 @@ object frmPropertiesEObject: TfrmPropertiesEObject
       object Panel1: TPanel
         Left = 0
         Top = 0
-        Width = 455
+        Width = 447
         Height = 19
         Align = alTop
         BevelOuter = bvNone
-        Color = 10528425
+        Color = 4473924
         TabOrder = 2
         object ebSortByImage: TExtBtn
           Left = 164
@@ -194,12 +208,13 @@ object frmPropertiesEObject: TfrmPropertiesEObject
           Height = 17
           Align = alNone
           BevelShow = False
+          NormalColor = 15461355
           BtnColor = 10528425
           GroupIndex = 1
           Caption = 'Texture'
           Enabled = False
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = 15461355
           Font.Height = -11
           Font.Name = 'MS Sans Serif'
           Font.Style = []
@@ -213,13 +228,14 @@ object frmPropertiesEObject: TfrmPropertiesEObject
           Height = 17
           Align = alNone
           BevelShow = False
+          NormalColor = 15461355
           BtnColor = 10528425
           GroupIndex = 1
           Down = True
           Caption = 'Name'
           Enabled = False
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = 15461355
           Font.Height = -11
           Font.Name = 'MS Sans Serif'
           Font.Style = []
@@ -234,11 +250,12 @@ object frmPropertiesEObject: TfrmPropertiesEObject
           Align = alNone
           AllowAllUp = True
           BevelShow = False
+          NormalColor = 15461355
           BtnColor = 10528425
           GroupIndex = 2
           Caption = 'Dropper'
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = 15461355
           Font.Height = -11
           Font.Name = 'MS Sans Serif'
           Font.Style = []
@@ -273,12 +290,13 @@ object frmPropertiesEObject: TfrmPropertiesEObject
           Height = 17
           Align = alNone
           BevelShow = False
+          NormalColor = 15461355
           BtnColor = 10528425
           GroupIndex = 1
           Caption = 'Shader'
           Enabled = False
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = 15461355
           Font.Height = -11
           Font.Name = 'MS Sans Serif'
           Font.Style = []
@@ -292,7 +310,7 @@ object frmPropertiesEObject: TfrmPropertiesEObject
           Height = 13
           Caption = 'Sort By:'
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
+          Font.Color = 15461355
           Font.Height = -11
           Font.Name = 'MS Sans Serif'
           Font.Style = []
